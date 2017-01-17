@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace _01._06.TriangleOf55Stars
+{
+    class TriangleOf55Stars
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(new String('*', i));
+            }
+        }
+    }
+}

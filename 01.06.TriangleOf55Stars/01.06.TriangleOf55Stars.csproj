@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AB13EFF-7B04-4D36-A060-4BAF8D4737AD}</ProjectGuid>
+    <ProjectGuid>{7BBCA3C3-33FC-4160-8E59-4FDA66726C22}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01._05.Nums1_20</RootNamespace>
-    <AssemblyName>01.05.Nums1-20</AssemblyName>
+    <RootNamespace>_01._06.TriangleOf55Stars</RootNamespace>
+    <AssemblyName>01.06.TriangleOf55Stars</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="TriangleOf55Stars.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
