@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.10.NumberBetween", "Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.11.EqualWords", "EqualWords\03.11.EqualWords.csproj", "{0C7EF6E2-01C9-4AC9-B938-B56431CAF275}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.18.CurrencyConverterApp", "CurrencyConverterApp\03.18.CurrencyConverterApp.csproj", "{9D484425-9946-4073-8866-F43E32383D4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{0C7EF6E2-01C9-4AC9-B938-B56431CAF275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7EF6E2-01C9-4AC9-B938-B56431CAF275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7EF6E2-01C9-4AC9-B938-B56431CAF275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D484425-9946-4073-8866-F43E32383D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D484425-9946-4073-8866-F43E32383D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D484425-9946-4073-8866-F43E32383D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D484425-9946-4073-8866-F43E32383D4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,5 +255,6 @@ Global
 		{9765CE59-62C3-43C4-A486-835DA47DB00D} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
 		{9F072565-6FDB-48C8-B517-B15D5B9EDAD0} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
 		{0C7EF6E2-01C9-4AC9-B938-B56431CAF275} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
+		{9D484425-9946-4073-8866-F43E32383D4B} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
 	EndGlobalSection
 EndGlobal
