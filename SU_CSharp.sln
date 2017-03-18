@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.First Steps in Coding", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.09.Sumator", "Sumator\01.09.Sumator.csproj", "{AE11C3B4-0506-4578-8C4A-2ABCE324B786}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Simple Calculations", "2. Simple Calculations", "{E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Simple Calculations", "02. Simple Calculations", "{E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.02.SquareArea", "SquareArea\02.02.SquareArea.csproj", "{E8A9EAD3-22C6-4B30-9441-6E74BA793DF4}"
 EndProject
@@ -36,6 +36,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.07.CircleAreaAndPerimeter", "CircleAreaAndPerimeter\02.07.CircleAreaAndPerimeter.csproj", "{360F2624-D0CE-4904-AE41-77869927DCC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.08.RectangleArea", "RectangleArea\02.08.RectangleArea.csproj", "{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.09.TriangleArea", "TriangleArea\02.09.TriangleArea.csproj", "{1E9325DA-B4F0-47BE-937C-FA637330CBDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,5 +126,6 @@ Global
 		{4C02B5CF-0D4F-4BD0-99B9-F724AE369D08} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{360F2624-D0CE-4904-AE41-77869927DCC0} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
+		{1E9325DA-B4F0-47BE-937C-FA637330CBDB} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 	EndGlobalSection
 EndGlobal
