@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basics", "Basics", "{DDFA4F62-E783-460B-A348-CC334989E982}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.08.SquareOfStars", "01.08.SquareOfStars\01.08.SquareOfStars.csproj", "{E76D0546-BAC6-4CD0-B8F1-C8CCAD2C81A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.First Steps in Coding", "01.First Steps in Coding", "{1F57F421-EA3A-4700-A1B8-BDF0994E7F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.09.Sumator", "Sumator\01.09.Sumator.csproj", "{AE11C3B4-0506-4578-8C4A-2ABCE324B786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{E76D0546-BAC6-4CD0-B8F1-C8CCAD2C81A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E76D0546-BAC6-4CD0-B8F1-C8CCAD2C81A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E76D0546-BAC6-4CD0-B8F1-C8CCAD2C81A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE11C3B4-0506-4578-8C4A-2ABCE324B786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE11C3B4-0506-4578-8C4A-2ABCE324B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE11C3B4-0506-4578-8C4A-2ABCE324B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE11C3B4-0506-4578-8C4A-2ABCE324B786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +67,6 @@ Global
 		{F6B34ED4-AF5A-4378-8718-496A3FF32A08} = {1F57F421-EA3A-4700-A1B8-BDF0994E7F8A}
 		{E76D0546-BAC6-4CD0-B8F1-C8CCAD2C81A4} = {1F57F421-EA3A-4700-A1B8-BDF0994E7F8A}
 		{1F57F421-EA3A-4700-A1B8-BDF0994E7F8A} = {DDFA4F62-E783-460B-A348-CC334989E982}
+		{AE11C3B4-0506-4578-8C4A-2ABCE324B786} = {1F57F421-EA3A-4700-A1B8-BDF0994E7F8A}
 	EndGlobalSection
 EndGlobal
