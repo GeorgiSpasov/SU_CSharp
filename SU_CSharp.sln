@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.06.TrapeziodArea", "Trap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.07.CircleAreaAndPerimeter", "CircleAreaAndPerimeter\02.07.CircleAreaAndPerimeter.csproj", "{360F2624-D0CE-4904-AE41-77869927DCC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.08.RectangleArea", "RectangleArea\02.08.RectangleArea.csproj", "{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{360F2624-D0CE-4904-AE41-77869927DCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360F2624-D0CE-4904-AE41-77869927DCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{360F2624-D0CE-4904-AE41-77869927DCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,5 +119,6 @@ Global
 		{E4A7FDA5-D4FF-4E02-80D1-58236819A588} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{4C02B5CF-0D4F-4BD0-99B9-F724AE369D08} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{360F2624-D0CE-4904-AE41-77869927DCC0} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
+		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 	EndGlobalSection
 EndGlobal
