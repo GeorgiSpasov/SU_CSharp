@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.08.RectangleArea", "Rect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.09.TriangleArea", "TriangleArea\02.09.TriangleArea.csproj", "{1E9325DA-B4F0-47BE-937C-FA637330CBDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.10.CelsiusToFahrenheit", "CelsiusToFahrenheit\02.10.CelsiusToFahrenheit.csproj", "{036292F9-0364-4C7E-90EE-E2DC0D711390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E9325DA-B4F0-47BE-937C-FA637330CBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036292F9-0364-4C7E-90EE-E2DC0D711390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036292F9-0364-4C7E-90EE-E2DC0D711390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036292F9-0364-4C7E-90EE-E2DC0D711390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036292F9-0364-4C7E-90EE-E2DC0D711390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,5 +133,6 @@ Global
 		{360F2624-D0CE-4904-AE41-77869927DCC0} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{9FE903F3-BD65-462B-8388-CDDDE0A7BA30} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 		{1E9325DA-B4F0-47BE-937C-FA637330CBDB} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
+		{036292F9-0364-4C7E-90EE-E2DC0D711390} = {E4CC3475-D1EB-4A1B-B6C1-AABADFF4C0B1}
 	EndGlobalSection
 EndGlobal
