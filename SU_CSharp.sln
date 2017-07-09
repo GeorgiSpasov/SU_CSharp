@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basics", "Basics", "{DDFA4F62-E783-460B-A348-CC334989E982}"
 EndProject
@@ -76,6 +76,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.11.EqualWords", "EqualWords\03.11.EqualWords.csproj", "{0C7EF6E2-01C9-4AC9-B938-B56431CAF275}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.18.CurrencyConverterApp", "CurrencyConverterApp\03.18.CurrencyConverterApp.csproj", "{9D484425-9946-4073-8866-F43E32383D4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentals", "Fundamentals", "{94611BFE-F7D1-4D04-A9EC-EDA34017D3BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.PokeMon", "01.PokeMon\01.PokeMon.csproj", "{6AF136F3-C954-43ED-965A-DC033098FD32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PokemonDontGo", "02.PokemonDontGo\02.PokemonDontGo.csproj", "{A7EAA6D7-A629-4B5F-BD46-737C98874467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +221,14 @@ Global
 		{9D484425-9946-4073-8866-F43E32383D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D484425-9946-4073-8866-F43E32383D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D484425-9946-4073-8866-F43E32383D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF136F3-C954-43ED-965A-DC033098FD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF136F3-C954-43ED-965A-DC033098FD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF136F3-C954-43ED-965A-DC033098FD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF136F3-C954-43ED-965A-DC033098FD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EAA6D7-A629-4B5F-BD46-737C98874467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EAA6D7-A629-4B5F-BD46-737C98874467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EAA6D7-A629-4B5F-BD46-737C98874467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EAA6D7-A629-4B5F-BD46-737C98874467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,5 +270,7 @@ Global
 		{9F072565-6FDB-48C8-B517-B15D5B9EDAD0} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
 		{0C7EF6E2-01C9-4AC9-B938-B56431CAF275} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
 		{9D484425-9946-4073-8866-F43E32383D4B} = {A978A4FF-0DCF-4051-B167-1AA04569204D}
+		{6AF136F3-C954-43ED-965A-DC033098FD32} = {94611BFE-F7D1-4D04-A9EC-EDA34017D3BA}
+		{A7EAA6D7-A629-4B5F-BD46-737C98874467} = {94611BFE-F7D1-4D04-A9EC-EDA34017D3BA}
 	EndGlobalSection
 EndGlobal
