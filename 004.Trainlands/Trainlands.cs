@@ -55,7 +55,11 @@ namespace _004.Trainlands
                     {
                         trains.Add(trainName, new Dictionary<string, int>());
                     }
-                    trains[trainName] = trains[otherTrainName];
+                    trains[trainName].Clear();
+                    foreach (var wagon in trains[otherTrainName])
+                    {
+                        trains[trainName].Add(wagon.Key, wagon.Value);
+                    }
                 }
             }
 
