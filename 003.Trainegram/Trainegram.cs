@@ -8,52 +8,18 @@ namespace _003.Trainegram
     {
         static void Main(string[] args)
         {
-            Regex loco = new Regex(@"^<\[[^a-zA-Z0-9]+\]\.");
-            Regex wagon = new Regex(@"\G\.\[([a-zA-Z0-9])*\]\.");
+            Regex train = new Regex(@"^(<\[[^a-zA-Z0-9]*\]\.)+(\.\[([a-zA-Z0-9])*\]\.)*$");
             List<string> validTrains = new List<string>();
 
-            String input = "";
-            while (true)
+            String input = Console.ReadLine();
+            while (input != "Traincode!")
             {
+                if (train.IsMatch(input))
+                {
+                    validTrains.Add(input);
+                }
+
                 input = Console.ReadLine();
-                if (input == "Traincode!")
-                {
-                    break;
-                }
-
-                if (loco.IsMatch(input))
-                {
-                    int index = 0;
-                    Match match = loco.Match(input, index);
-                    if (match.Success)
-                    {
-                        string locoBody = match.Value;
-                        index = match.Index + locoBody.Length;
-
-                        if (index == input.Length)
-                        {
-                            validTrains.Add(input);
-                            continue;
-                        }
-                    }
-                    else
-                    {
-                        continue;
-                    }
-
-                    // Check wagons
-                    string wagonBody = "";
-                    while (match.Success && index <= input.Length)
-                    {
-                        match = wagon.Match(input, index);
-                        wagonBody = match.Value;
-                        index = match.Index + wagonBody.Length;
-                        if (index == input.Length)
-                        {
-                            validTrains.Add(input);
-                        }
-                    }
-                }
             }
 
             Console.WriteLine(string.Join("\n", validTrains));
